@@ -1,0 +1,17 @@
+{
+    "name": "nestboxphp/cuckoo",
+    "description": "MySQL database in-line encryption for data at rest",
+    "type": "library",
+    "require": {
+        "nestboxphp/nestbox": "^0.0.3"
+    },
+    "require-dev": {
+        "nestboxphp/nestbox": "^0.0.3"
+    },
+    "license": "AGPL-3.0",
+    "autoload": {
+        "psr-4": {
+            "NestboxPHP\\Cuckoo\\": "src/"
+        }
+    }
+}
